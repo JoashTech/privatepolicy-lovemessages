@@ -69,6 +69,17 @@
         margin: 20px 0;
         border-radius: 5px;
     }
+    .premium-section {
+        background: #f0f8ff;
+        padding: 20px;
+        border-left: 4px solid #4CAF50;
+        margin: 20px 0;
+        border-radius: 5px;
+    }
+    .premium-section h3 {
+        color: #2E7D32;
+        margin-top: 0;
+    }
     .data-flow h3 {
         color: #1976d2;
         margin-top: 0;
@@ -87,7 +98,7 @@
             font-size: 1em;
         }
         p, li {
-            font-size: 0.9em;
+            fontSize: 0.9em;
         }
         .app-icon {
             max-width: 80px;
@@ -99,7 +110,7 @@
     <div class="container">
         <img src="https://raw.githubusercontent.com/JoashTech/privatepolicy-lovemessages/main/ic_love_icon.png" alt="Basic Love Messages App Icon" class="app-icon">
         <h1>Privacy Policy for Love Messages</h1>
-        <p class="last-updated">Last Updated: October 26, 2025</p>
+        <p class="last-updated">Last Updated: December 2024</p>
         <p>JoshTechApps ("we," "us," or "our") is committed to protecting your privacy. This Privacy Policy explains how we handle and protect your information when you use our mobile application, <strong>Love Messages</strong> (the "App"). The App provides a platform for users to browse, create, and share romantic messages, quotes, and images.</p>
 
         <div class="data-flow">
@@ -107,6 +118,13 @@
             <p><strong>Our Role:</strong> We enable third-party services that may collect anonymized data</p>
             <p><strong>Their Role:</strong> Third-party services independently collect and process device data</p>
             <p>We do not collect, store, or process device data on our servers - this is handled directly by our partners according to their privacy policies.</p>
+        </div>
+
+        <div class="premium-section">
+            <h3>🌟 Premium Features & Ad Removal</h3>
+            <p><strong>Ad-Free Experience:</strong> When you purchase any premium plan (6-month, 1-year, or lifetime), all advertisements are immediately removed from the App.</p>
+            <p><strong>Data Benefits:</strong> Premium users enjoy enhanced privacy as no advertising data is collected or processed while using the premium version.</p>
+            <p><strong>Purchase Processing:</strong> All premium purchases are handled securely through Google Play Store. We do not have access to your payment information.</p>
         </div>
 
         <h2>1. Data Processing Overview</h2>
@@ -117,13 +135,15 @@
             <li><strong>Custom Messages & Quotes</strong>: The App allows you to create and save custom love messages and quotes. These messages are stored locally on your device and are not transmitted to our servers unless you choose to share them.</li>
             <li><strong>Feedback</strong>: If you submit feedback through the App, we may receive your email address and feedback content when you choose to submit via email.</li>
             <li><strong>Photos and Media</strong>: If you use the camera feature or upload images for custom backgrounds, these images are stored locally on your device and are not sent to our servers unless you share them.</li>
+            <li><strong>Favorites & Settings</strong>: Your favorite quotes, text preferences, and app settings are stored locally on your device.</li>
         </ul>
 
         <h3>b. Third-Party Data Processing</h3>
         <ul>
             <li><strong>Analytics Services</strong>: Our app uses <a href="https://firebase.google.com/docs/analytics">Firebase Analytics</a> which may collect anonymized data about how you interact with the App. This includes information such as which features you use, session duration, and navigation patterns. This data does not identify you personally and is used to improve the App's performance.</li>
             <li><strong>Crash Reporting Services</strong>: Our app uses <a href="https://firebase.google.com/docs/crashlytics">Firebase Crashlytics</a> which may collect anonymized data about app crashes and performance issues. This may include device information and crash logs to help diagnose and fix issues.</li>
-            <li><strong>Advertising Services</strong>: The App uses <a href="https://www.google.com/admob/">Google AdMob</a>, <a href="https://unity.com/ads">Unity Ads</a>, and <a href="https://vungle.com/">Vungle</a> to display ads. These advertising services independently collect anonymized data, such as device identifiers (e.g., Advertising ID), IP address, and general location data, to serve personalized or non-personalized ads.</li>
+            <li><strong>Advertising Services</strong>: The App uses <a href="https://www.google.com/admob/">Google AdMob</a>, <a href="https://unity.com/ads">Unity Ads</a>, <a href="https://vungle.com/">Vungle</a>, and <a href="https://www.facebook.com/business/help/1518001237165682">Facebook Audience Network</a> to display ads. These advertising services independently collect anonymized data, such as device identifiers (e.g., Advertising ID), IP address, and general location data, to serve personalized or non-personalized ads.</li>
+            <li><strong>In-App Purchases</strong>: We use Google Play Billing for premium purchases. Google processes your payment information and we only receive confirmation of your purchase.</li>
         </ul>
 
         <h3>c. App Permissions</h3>
@@ -132,7 +152,7 @@
             <li><strong>Camera</strong>: Used to take photos for custom quote backgrounds (optional).</li>
             <li><strong>Storage</strong>: Used to save or share images of quotes you create.</li>
             <li><strong>Media</strong>: Used to access images from your gallery for custom backgrounds.</li>
-            <li><strong>Internet</strong>: Required for displaying ads, sending feedback, and analytics services.</li>
+            <li><strong>Internet</strong>: Required for displaying ads, sending feedback, analytics services, and processing premium purchases.</li>
             <li><strong>Notifications</strong>: Used to send daily love quote notifications (optional).</li>
         </ul>
 
@@ -145,7 +165,8 @@
             <li><strong>To Provide and Improve the App</strong>: Usage data and crash reports help understand how the App is used and identify areas for improvement.</li>
             <li><strong>To Personalize Your Experience</strong>: User-generated content and settings are used to customize your experience within the App.</li>
             <li><strong>To Deliver Notifications</strong>: If enabled, we use your selected notification categories to send relevant love quotes.</li>
-            <li><strong>To Display Ads</strong>: Advertising partners use anonymized data to serve relevant ads.</li>
+            <li><strong>To Display Ads</strong>: Advertising partners use anonymized data to serve relevant ads (free version only).</li>
+            <li><strong>To Process Premium Purchases</strong>: Google Play Store processes your payments for premium features.</li>
             <li><strong>To Respond to Feedback</strong>: If you submit feedback, we use your email address and feedback content to respond and provide support.</li>
         </ul>
 
@@ -158,6 +179,8 @@
                     <li><strong>Google AdMob</strong>: Anonymized data is processed by AdMob to deliver ads.</li>
                     <li><strong>Unity Ads</strong>: Anonymized data may be processed by Unity Ads for advertising purposes.</li>
                     <li><strong>Vungle</strong>: Anonymized data may be processed by Vungle for advertising purposes.</li>
+                    <li><strong>Facebook Audience Network</strong>: Anonymized data may be processed by Facebook for advertising purposes.</li>
+                    <li><strong>Google Play Store</strong>: Processes in-app purchases and payment information.</li>
                 </ul>
             </li>
             <li><strong>User-Initiated Sharing</strong>: If you share quotes or images via email, social media, or other apps, the shared content is transmitted through the selected third-party app.</li>
@@ -168,6 +191,7 @@
         <ul>
             <li><strong>Local Storage</strong>: User-generated content and settings are stored locally on your device and are not transmitted to our servers unless you share it.</li>
             <li><strong>Third-Party Storage</strong>: Analytics and crash data are processed by Firebase and stored on Google's servers. Ad-related data is processed by advertising partners.</li>
+            <li><strong>Premium Status</strong>: Your premium purchase status is stored locally and verified through Google Play Services.</li>
             <li><strong>Security Measures</strong>: We implement reasonable security measures to protect your data, though no method of transmission or storage is completely secure.</li>
         </ul>
 
@@ -176,6 +200,7 @@
             <li><strong>Permissions</strong>: You can deny or revoke permissions in your device settings.</li>
             <li><strong>Notifications</strong>: You can enable or disable notifications in the App's settings.</li>
             <li><strong>Advertising</strong>: You can opt out of personalized ads by adjusting your device's Advertising ID settings.</li>
+            <li><strong>Premium Features</strong>: You can remove ads permanently by purchasing any premium plan through the App.</li>
             <li><strong>Data Deletion</strong>: Since user-generated content is stored locally, you can delete it by clearing the App's data or uninstalling the App.</li>
         </ul>
 
@@ -185,21 +210,30 @@
         <h2>7. Third-Party Services</h2>
         <p>The App uses the following third-party services that may process data:</p>
         <ul>
-            <li><a href="https://policies.google.com/privacy">Google's Privacy Policy</a> (for Firebase and AdMob)</li>
+            <li><a href="https://policies.google.com/privacy">Google's Privacy Policy</a> (for Firebase, AdMob, and Google Play)</li>
             <li><a href="https://unity.com/legal/privacy-policy">Unity Ads Privacy Policy</a></li>
             <li><a href="https://vungle.com/privacy/">Vungle Privacy Policy</a></li>
+            <li><a href="https://www.facebook.com/about/privacy/">Facebook Data Policy</a></li>
         </ul>
 
-        <h2>8. International Users</h2>
+        <h2>8. Premium Features Information</h2>
+        <p><strong>Ad Removal:</strong> All premium plans (6-month, 1-year, lifetime) completely remove advertisements from the App.</p>
+        <p><strong>Purchase Processing:</strong> Premium purchases are handled securely by Google Play Store. We receive only purchase confirmation, not your payment details.</p>
+        <p><strong>Subscription Management:</strong> You can manage or cancel subscriptions through your Google Play Store account settings.</p>
+        <p><strong>Restoration:</strong> Premium status can be restored on new devices using the "Restore Purchases" feature in the App.</p>
+
+        <h2>9. International Users</h2>
         <p>The App is hosted and operated in the United States. If you use the App from outside the United States, your information may be transferred to, stored, and processed in the United States.</p>
 
-        <h2>9. Changes to This Privacy Policy</h2>
-        <p>We may update this Privacy Policy from time to time. We will notify you of significant changes by updating the "Last Updated" date.</p>
+        <h2>10. Changes to This Privacy Policy</h2>
+        <p>We may update this Privacy Policy from time to time. We will notify you of significant changes by updating the "Last Updated" date and through in-app notifications when possible.</p>
 
-        <h2>10. Contact Us</h2>
+        <h2>11. Contact Us</h2>
         <p>If you have questions, concerns, or requests regarding this Privacy Policy, please contact us at:</p>
         <p><strong>Email</strong>: <a href="mailto:contactjoshtech@gmail.com">contactjoshtech@gmail.com</a><br>
         <strong>Developer</strong>: JoshTechApps</p>
+        
+        <p>For premium purchase support or billing inquiries, please contact Google Play Support through your Google Account.</p>
     </div>
 </body>
 </html>
